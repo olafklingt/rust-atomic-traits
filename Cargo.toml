@@ -31,6 +31,8 @@ atomic_from_mut = []
 atomic_bool_fetch_not = []
 
 [dependencies]
+atomic_float = "0.1.0"
+
 cfg-if = "1"
 
 loom = { version = "0.7", optional = true }
